@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 cchs.cchs.wsgi:application
+web:gunicorn CCMS.wsgi --log-file -
