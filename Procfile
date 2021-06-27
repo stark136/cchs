@@ -1,1 +1,1 @@
-web:gunicorn cchs.wsgi --log-file -
+web: python cchs/manage.py runserver 0.0.0.0:$PORT
