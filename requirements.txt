@@ -1,4 +1,4 @@
-micropython-fcntl
+
 Django==3.2
 django-waitress==0.1.0
 docutils==0.17
