@@ -9,7 +9,7 @@ admin.site.site_title = "Christ chruch Admin Portal"
 admin.site.index_title = "Welcome to cchs admin pannel" 
 
 urlpatterns = [
-    path('admin/', admin.site.urls)
+    path('admin/', admin.site.urls),
     path('' , include('myapp.urls')) 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
