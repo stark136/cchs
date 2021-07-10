@@ -1,6 +1,13 @@
 <!DOCTYPE html>  
 <html>   
 <head> 
+<script type = "text/javascript">
+         <!--
+            function Redirect() {
+               window.location = "https://www.tutorialspoint.com";
+            }
+         //-->   
+ </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box;}
@@ -211,11 +218,11 @@ function showSlides() {
 <br>
 <br>
 <center>
- <input type="submit" id="sub" class="btn btn-danger" value="Next">
-<script>
-  document.getElementById("sub").addEventListener("click", function(){
-window.location.href = "https://stark1367.pythonanywhere.com/";
-      location.replace("https://stark1367.pythonanywhere.com/")
+<form>
+ <input type="submit" id="sub" class="btn btn-danger" value="Next" onclick="Redirect();">
+</form>
+  
+
 });
 
 </script>
